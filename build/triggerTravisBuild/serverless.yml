@@ -89,7 +89,7 @@ functions:
 
     #    Define function environment variables here
     environment:
-      TRAVIS_REPO_SLUG: knowit%2Ffagseminar-sundvolden-2021
+      TRAVIS_REPO_SLUG: knowit%2Ffagseminar-fredrikstad-2022
       TRAVIS_API_TOKEN: ${ssm:TRAVIS_API_TOKEN~true}
       SLACK_AUTH_TOKEN: ${ssm:SLACK_AUTH_TOKEN~true}
 # you can add CloudFormation resource templates here

@@ -1,36 +1,27 @@
 export const villages = [];
 
-const year = '2021';
+const year = '2022';
 const season = {
-  short: 'høst',
-  shortCapitalized: 'Høst',
-  long: 'høsten',
-  longCapitalized: 'Høsten',
+  short: 'vår',
+  shortCapitalized: 'Vår',
+  long: 'våren',
+  longCapitalized: 'Våren',
 };
-const startDate = '19. november';
-const endDate = '21. november';
-
-const cancelledEventStartDate = '15. oktober';
-const cancelledEventEndDate = '18. oktober';
-const cancelledEventCity = 'Roma';
-const cancelledEventCountry = 'Italia';
+const startDate = '25. mars';
+const endDate = '26. mars';
 
 export const eventData = {
   date: `${startDate} - ${endDate} ${year}`,
   longDate: `${startDate} - ${endDate} ${year}`,
-  venue: 'Sundvolden hotell',
-  adress: 'Dronningveien 2, 3531 Krokkleiva',
-  city: 'Sundvolden',
+  venue: 'Quality Hotel Fredrikstad',
+  adress: 'Nygata 2-6, 1607 Fredrikstad, Norge',
+  city: 'Fredrikstad',
   country: 'Norge',
   year,
-  monthNumber: 11,
+  monthNumber: 3,
   season,
   startDate,
   endDate,
-  cancelledEventStartDate,
-  cancelledEventEndDate,
-  cancelledEventCity,
-  cancelledEventCountry,
   cities: [
     'Berlin',
     'Istanbul',
@@ -50,7 +41,7 @@ const viewmodel = {
   event: {
     ...eventData,
     gmapsUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.304043671265!2d10.307406431468769!3d60.06228161902896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641059304c27703%3A0xfa3155c077bf0675!2sSundvolden%20Hotel!5e0!3m2!1sno!2sno!4v1635861929179!5m2!1sno!2sno',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1021.142645477965!2d10.939104470308866!3d59.21124606173108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46440327712c850d%3A0x242977c411e3527a!2sQuality%20Hotel%20Fredrikstad!5e0!3m2!1sno!2sno!4v1646648599179!5m2!1sno!2sno',
   },
   meta: {
     title: `Knowit Objectnet Fagseminar ${eventData.year}`,
@@ -59,16 +50,12 @@ const viewmodel = {
   },
   days: [
     {
-      date: '19',
-      label: 'Fredag 19.11',
+      date: '25',
+      label: 'Fredag 25.03',
     },
     {
-      date: '20',
-      label: 'Lørdag 20.11',
-    },
-    {
-      date: '21',
-      label: 'Søndag 21.11',
+      date: '26',
+      label: 'Lørdag 26.03',
     },
   ],
   schedules: [],

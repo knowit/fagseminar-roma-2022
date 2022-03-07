@@ -1,6 +1,6 @@
-[![Build Status](https://app.travis-ci.com/knowit/fagseminar-sundvolden-2021.svg?branch=master)](https://app.travis-ci.com/github/knowit/fagseminar-sundvolden-2021)
+[![Build Status](https://app.travis-ci.com/knowit/fagseminar-fredrikstad-2022.svg?branch=master)](https://app.travis-ci.com/github/knowit/fagseminar-fredrikstad-2022)
 
-# Knowit Sundvolden Fagseminar Høsten 2021
+# Knowit Fredrikstad Fagseminar Vår 2022
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 

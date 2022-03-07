@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Knowit Sundvolden Fagseminar Høsten 2021',
+    title: 'Knowit Fredrikstad Fagseminar Vår 2022',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -20,7 +20,7 @@ module.exports = {
         apiKey: process.env.AIRTABLE_API_KEY,
         tables: [
           {
-            baseId: 'appuaJmB2L0UubKGW',
+            baseId: 'appM5mEgO4ISqHGEz',
             tableName: 'innsendte_foredrag',
             mapping: { speaker_image: 'fileNode' },
           },
