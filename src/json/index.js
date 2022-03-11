@@ -45,7 +45,7 @@ const viewmodel = {
   },
   meta: {
     title: `Knowit Objectnet Fagseminar ${eventData.year}`,
-    description: `Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. ${season.longCapitalized} ${year} vil den bli avholdt ${eventData.date} på ${eventData.city}, ${eventData.country}.`,
+    description: `Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. ${season.longCapitalized} ${year} vil den bli avholdt ${eventData.date} i ${eventData.city}, ${eventData.country}.`,
     keywords: `Fagseminar, ${eventData.city}, ${eventData.country}, Fag, Foredrag`,
   },
   days: [
